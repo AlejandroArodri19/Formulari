@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Formulari_Alejandro</title>
+    <link rel="stylesheet" href="Formulari_Alejandro_CSS.css">
+</head>
+
+<body>
+    <h1>El meu primer formulari</h1>
+
+    <h4>Les teves dades personals:</h4>
+
+    <form action="Result_Alejandro.html"></form>
+    
+    <label for="name">Nom:</label>
+    <input class="text" type="text" id="name" name="name">
+    <label for="name">Cognom:</label>
+    <input class="text" type="text" id="name" name="name">
+    
+    <br>
+    <label for="edat">Edat:</label>
+    <input type="number" id="edat" name="edat">
+    <br>
+
+    <h4>Marca els llenguatges de programació que més t'agraden:</h4>
+    <input type="checkbox" id="html" name="html" value="html" checked="true">
+    <label for="html"> HTML </label><br>
+    <input type="checkbox" id="css" name="css" value="css">
+    <label for="css"> CSS </label><br>
+    <input type="checkbox" id="xml" name="xml" value="xml">
+    <label for="xml"> XML </label>
+
+    <h4>Selecciona el cicle formatiu que vols cursar:</h4>
+
+    <label for="curs">Selecciona el cicle:</label><br>
+    <input type="radio" id="asix" name="asix" value="asix" checked="true">
+    <label for="asix">ASIX</label>
+    <br>
+    <input type="radio" id="dam" name="dam" value="dam">
+    <label for="dam">DAM</label>
+    <br>
+    <input type="radio" id="daw" name="daw" value="daw" >
+    <label for="daw">DAW</label>
+    <br>
+    <br>
+
+    <label for="curs">Selecciona el curs:</label>
+    <select id="curs" name="curs">
+        <option value="primer" selected="true">Primer</option>
+        <option value="segon">Segon</option>
+    </select>
+    <br>
+    <br>
+
+    <label for="curs">Observacions:</label>
+    <br>
+    <br>
+
+    <textarea name="missatge" rows="10" cols="50" placeholder="Escriu el teu missatge">
+    </textarea> 
+    <br>
+
+    <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
